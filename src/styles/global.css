@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+    name: "light";
+    default: true;
+    --color-primary: '#5800ff';
+    --color-secondary: '#72ffff';
+  }
+@font-face {
+    font-family: GaretHeavy;
+    src: url("/fonts/Garet-Heavy.ttf");
+}
+
+@font-face {
+    font-family: garetHeavy;
+    src: url("/public/fonts/Garet-Heavy.woff2");
+}
+
+@font-face {
+    font-family: garet;
+    src: url("/public/fonts/Garet-Book.woff2");
+}

@@ -1,11 +1,141 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Welcome from "../components/Welcome.astro";
+import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import logo from "../assets/logo.png";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
+  <div class="bg-gradient-to-tl from-primary/40 to-secondary/40 p-20">
+    <div class="text-center mx-auto md:w-[768px] lg:w-[1024px]">
+      <Image src={logo} alt="TI Facilitada" width={300} class="p-0 m-0" />
+      <h1 class="text-center text-4xl md:text-6xl font-extrabold mt-20">
+        Domine TI com resumos <span class="text-primary">facilitados</span>,
+        esquematizados e objetivos
+      </h1>
+      <p class="text-center text-xl md:text-2xl mt-10">
+        Material baseado em questões pra você aprender mais rápido e aumentar
+        seu desempenho em TI em concursos da área Fiscal e Controle.
+      </p>
+
+      <button class="btn btn-lg btn-primary mt-10">
+        Quero Dominar TI para Concursos 🚀
+      </button>
+      <button class="btn btn-lg btn-outline btn-neutral mt-10">
+        Baixar aula demonstrativa
+      </button>
+    </div>
+  </div>
+
+  <div class="p-20">
+    <div class="lg:w-[1024px] mx-auto">
+      <h2 class="text-4xl font-extrabold text-center">
+        Pra quem serve o TI Facilitada?
+      </h2>
+      <div class="my-10 [&_p]:mt-5">
+        <p class="text-lg">
+          <strong>✅ Você que está começando:</strong>
+          Não entende nada de TI? Sem problemas. Nossos resumos são feitos para iniciantes.
+        </p>
+        <p class="text-lg">
+          <strong>✅ Você que já estudou, mas ainda se sente perdido:</strong>
+          Se livros e aulas não funcionaram para você, experimente um jeito novo
+          de aprender.
+        </p>
+        <p class="text-lg">
+          <strong>✅ Você que quer passar no concurso:</strong>
+          Focado em aprovação? Nossos resumos também. Feito pra você marcar o x na
+          opção correta.
+        </p>
+        <p class="text-lg">
+          <strong>✅ Você que tem pouco tempo:</strong>
+          Precisa estudar de forma rápida e eficiente? Aqui você encontra o essencial.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="p-20 bg-secondary/30">
+    <div class="lg:w-[1024px] mx-auto md:flex gap-2">
+      <div class="w-1/2">
+        <h2 class="text-4xl font-extrabold mb-10">Perguntas Frequentes</h2>
+        <p>Tire suas dúvidas</p>
+      </div>
+
+      <div class="join join-vertical w-full text-left">
+        <div class="collapse collapse-plus join-item">
+          <input type="radio" name="my-accordion-4" checked="checked" />
+          <div class="collapse-title font-semibold">
+            O que é o TI Facilitada?
+          </div>
+          <div class="collapse-content text-sm">
+            O TI Facilitada é um site que oferece resumos simplificados e
+            diretos de matérias de TI voltadas para concursos públicos. Nosso
+            objetivo é ajudar você a aprender o essencial sem complicação.
+          </div>
+        </div>
+        <div class="collapse collapse-plus join-item">
+          <input type="radio" name="my-accordion-4" />
+          <div class="collapse-title font-semibold">
+            Para quem é esse material?
+          </div>
+          <div class="collapse-content text-sm">
+            É para você que está estudando para concursos e precisa de um
+            material claro, organizado e focado no que realmente cai na prova.
+            Ideal para iniciantes ou quem tem pouco tempo para estudar.
+          </div>
+        </div>
+        <div class="collapse collapse-plus join-item">
+          <input type="radio" name="my-accordion-4" />
+          <div class="collapse-title font-semibold">
+            Os resumos são atualizados?
+          </div>
+          <div class="collapse-content text-sm">
+            Sim! Nossos materiais são revisados e atualizados conforme os
+            editais mais recentes, para garantir que você estude o conteúdo
+            certo.
+          </div>
+        </div>
+        <div class="collapse collapse-plus join-item">
+          <input type="radio" name="my-accordion-4" />
+          <div class="collapse-title font-semibold">
+            Como posso acessar os resumos?
+          </div>
+          <div class="collapse-content text-sm">
+            Após a compra, você recebe acesso imediato ao material em formato
+            digital (PDF). Baixe e estude onde e quando quiser. certo.
+          </div>
+        </div>
+        <div class="collapse collapse-plus join-item">
+          <input type="radio" name="my-accordion-4" />
+          <div class="collapse-title font-semibold">
+            Há garantia de satisfação?
+          </div>
+          <div class="collapse-content text-sm">
+            Sim! Se você não gostar do material, oferecemos garantia de
+            reembolso em até 7 dias. Queremos que você sinta que investiu certo.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </Layout>
+<div class="py-20 bg-[#260e52] text-white">
+  <div class="lg:w-[1024px] mx-auto md:flex justify-between">
+    <div class="[&_a]:underline underline-offset-6 [&_a]:mr-5">
+      <a href="https://instagram.com/tifacilitada">Instagram</a>
+
+      <a href="https://instagram.com/tifacilitada">FAQ</a>
+
+      <a href="https://instagram.com/tifacilitada">Contato</a>
+
+      <a href="https://instagram.com/tifacilitada">Sobre</a>
+    </div>
+    <p>
+      TI Facilitada - Resumos de TI para concursos - Todos os Direitos
+      Reservados
+    </p>
+  </div>
+</div>
