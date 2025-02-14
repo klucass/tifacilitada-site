@@ -1,0 +1,29 @@
+[
+    {
+        "id": "combo-fiscal-controle",
+        "name": "Combo Fiscal e Controle",
+        "price": "R$ 67,00",
+        "description": "Combo Fiscal e Controle",
+        "body": "Combo Fiscal e Controle", 
+        "image": "./capas/combo-fiscal-controle.png",
+        "enderecoCheckout": "/checkout/combo-fiscal-controle"
+    },
+    {
+        "id": "fluencia-em-dados",
+        "name": "Fluência em Dados (Fiscal e Controle)",
+        "price": "R$ 47,00",
+        "description": "Fluência em Dados (Fiscal e Controle)",
+        "body": "Fluência em Dados (Fiscal e Controle)", 
+        "image": "./capas/fluencia-em-dados.png",
+        "enderecoCheckout": "/checkout/fluencia-em-dados"
+    },
+    {
+        "id": "ti-geral-gestao",
+        "name": "TI Geral e Gestão",
+        "price": "R$ 47,00",
+        "description": "TI Geral e Gestão",
+        "body": "TI Geral e Gestão", 
+        "image": "./capas/ti-geral-gestao.png",
+        "enderecoCheckout": "/checkout/ti-geral-gestao"
+    }
+]

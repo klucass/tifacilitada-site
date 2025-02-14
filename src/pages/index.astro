@@ -3,6 +3,9 @@ import Welcome from "../components/Welcome.astro";
 import Layout from "../layouts/Layout.astro";
 import { Image } from "astro:assets";
 import logo from "../assets/logo.png";
+import { getCollection } from "astro:content";
+import HomeItemMaterial from "../components/HomeItemMaterial.astro";
+const materiais = await getCollection("materiais");
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -18,19 +21,44 @@ import logo from "../assets/logo.png";
       </h1>
       <p class="text-center text-xl md:text-2xl mt-10">
         Material baseado em questões pra você aprender mais rápido e aumentar
-        seu desempenho em TI em concursos da área Fiscal e Controle.
+        seu desempenho em TI em concursos das áreas Fiscal e Controle.
       </p>
 
-      <button class="btn btn-lg btn-primary mt-10">
+      <a href="#materiais" class="btn btn-xl btn-primary mt-10 animate-bounce">
         Quero Dominar TI para Concursos 🚀
-      </button>
-      <button class="btn btn-lg btn-outline btn-neutral mt-10">
-        Baixar aula demonstrativa
-      </button>
+      </a>
     </div>
   </div>
 
   <div class="p-20">
+    <h2 class="text-4xl font-bold text-center mb-10">
+      Por que usar o TI Facilitada?
+    </h2>
+    <div
+      class="lg:w-[1024px] mx-auto md:flex gap-2 justify-center [&_div]:my-5 md:[&_div]:my-0 [&_div]:bg-primary/10 [&_div]:border-2 [&_div]:border-primary/20 [&_div]:rounded-2xl [&_div]:p-6 [&_div]:w-60"
+    >
+      <div class="">
+        <p class="text-xl font-bold mb-5">✨ Simples</p>
+        <p class="">Linguagem clara, sem enrolação</p>
+      </div>
+      <div>
+        <p class="text-xl font-bold mb-5">🔭 Focado</p>
+        <p class="">Apenas o que cai na prova, sem conteúdo extra</p>
+      </div>
+      <div>
+        <p class="text-xl font-bold mb-5">🗂 Organizado</p>
+        <p class="">Tudo estruturado para você estudar de forma eficiente</p>
+      </div>
+      <div>
+        <p class="text-xl font-bold mb-5">🛟 Prático</p>
+        <p class="">
+          Inclui cadernos de questões pra você treinar e aprofundar
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-20 bg-gradient-to-t from-primary/20 to-base-200">
     <div class="lg:w-[1024px] mx-auto">
       <h2 class="text-4xl font-extrabold text-center">
         Pra quem serve o TI Facilitada?
@@ -57,7 +85,29 @@ import logo from "../assets/logo.png";
       </div>
     </div>
   </div>
-  <div class="p-20 bg-secondary/30">
+
+  <div id="materiais" class="p-20">
+    <div class="lg:w-[1024px] mx-auto">
+      <h2 class="text-4xl font-extrabold text-center mb-10">
+        Materiais disponíveis
+      </h2>
+
+      <div class="flex flex-wrap gap-10 justify-center">
+        {
+          materiais.map((material) => (
+            <HomeItemMaterial
+              capa={material.data.image}
+              endereco={`/materiais/${material.data.id}`}
+              enderecoCheckout={`${material.data.enderecoCheckout}`}
+              titulo={material.data.name}
+              preco={material.data.price}
+            />
+          ))
+        }
+      </div>
+    </div>
+  </div>
+  <div class="p-20 bg-gradient-to-t from-primary/20 to-base-200">
     <div class="lg:w-[1024px] mx-auto md:flex gap-2">
       <div class="w-1/2">
         <h2 class="text-4xl font-extrabold mb-10">Perguntas Frequentes</h2>
@@ -122,20 +172,3 @@ import logo from "../assets/logo.png";
     </div>
   </div>
 </Layout>
-<div class="py-20 bg-[#260e52] text-white">
-  <div class="lg:w-[1024px] mx-auto md:flex justify-between">
-    <div class="[&_a]:underline underline-offset-6 [&_a]:mr-5">
-      <a href="https://instagram.com/tifacilitada">Instagram</a>
-
-      <a href="https://instagram.com/tifacilitada">FAQ</a>
-
-      <a href="https://instagram.com/tifacilitada">Contato</a>
-
-      <a href="https://instagram.com/tifacilitada">Sobre</a>
-    </div>
-    <p>
-      TI Facilitada - Resumos de TI para concursos - Todos os Direitos
-      Reservados
-    </p>
-  </div>
-</div>
