@@ -4,7 +4,7 @@
         "name": "Combo Fiscal e Controle",
         "price": "R$ 67,00",
         "description": "Combo Fiscal e Controle",
-        "body": "Combo Fiscal e Controle", 
+        "body": "O resumo de Fluência em dados contém os seguintes assuntos: <ul> <li>Banco de Dados</li> <li>Modelagem Relacional</li> <li>BI e Analytics</li> <li>Big Data</li> <li>Inteligência Artificial</li> <li>Governança de Dados</li> <li>SQL</li> <li>Python</li> <li>R</li> </ul> <br> O resumo de TI Geral e Gestão contém os seguintes assuntos: <ul> <li>Gestão de Projetos</li> <li>Processos de Negócios e Modelagem</li><li>Redes de Computadores</li> <li>Segurança da Informação</li> <li>Certificação Digital</li> <li>PMBOK</li> <li>ITIL</li> <li>COBIT</li> </ul>", 
         "image": "./capas/combo-fiscal-controle.png",
         "enderecoCheckout": "https://pay.kiwify.com.br/aGMUpNF"
     },

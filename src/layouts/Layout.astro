@@ -17,7 +17,82 @@ import "../styles/global.css";
   </head>
   <body class="font-garet">
     <slot />
-    <div class="py-20 bg-[#260e52] text-white">
+    <div class="p-20 bg-gradient-to-t from-primary/20 to-base-200">
+      <div class="lg:w-[1024px] mx-auto md:flex gap-2">
+        <div class="w-1/2">
+          <h2 class="text-4xl font-extrabold mb-10">Perguntas Frequentes</h2>
+          <p>Tire suas dúvidas</p>
+        </div>
+
+        <div class="join join-vertical w-full text-left">
+          <div class="collapse collapse-plus join-item">
+            <input type="radio" name="my-accordion-4" checked="checked" />
+            <div class="collapse-title font-semibold">
+              Após a compra, quando terei acesso aos resumos?
+            </div>
+            <div class="collapse-content text-sm">
+              Após a compra você terá acesso imediado ao material em formato PDF
+              para baixar e usar onde e como quiser.
+            </div>
+          </div>
+          <div class="collapse collapse-plus join-item">
+            <input type="radio" name="my-accordion-4" />
+            <div class="collapse-title font-semibold">
+              Para quem é esse material?
+            </div>
+            <div class="collapse-content text-sm">
+              É para você que está estudando para concursos e precisa de um
+              material claro, organizado e focado no que realmente cai na prova.
+              Ideal para iniciantes ou quem tem pouco tempo para estudar.
+            </div>
+          </div>
+          <div class="collapse collapse-plus join-item">
+            <input type="radio" name="my-accordion-4" />
+            <div class="collapse-title font-semibold">
+              Os resumos são atualizados?
+            </div>
+            <div class="collapse-content text-sm">
+              Sim! Nossos materiais são revisados e atualizados conforme os
+              editais mais recentes, para garantir que você estude o conteúdo
+              certo.
+            </div>
+          </div>
+          <div class="collapse collapse-plus join-item">
+            <input type="radio" name="my-accordion-4" />
+            <div class="collapse-title font-semibold">
+              Como posso acessar os resumos?
+            </div>
+            <div class="collapse-content text-sm">
+              Após a compra, você recebe acesso imediato ao material em formato
+              digital (PDF). Baixe e estude onde e quando quiser. certo.
+            </div>
+          </div>
+          <div class="collapse collapse-plus join-item">
+            <input type="radio" name="my-accordion-4" />
+            <div class="collapse-title font-semibold">
+              Há garantia de satisfação?
+            </div>
+            <div class="collapse-content text-sm">
+              Sim! Se você não gostar do material, oferecemos garantia de
+              reembolso em até 30 dias. Queremos que você sinta que investiu
+              certo.
+            </div>
+          </div>
+          <div class="collapse collapse-plus join-item">
+            <input type="radio" name="my-accordion-4" checked="checked" />
+            <div class="collapse-title font-semibold">
+              O que é o TI Facilitada?
+            </div>
+            <div class="collapse-content text-sm">
+              O TI Facilitada é um site que oferece resumos simplificados e
+              diretos de matérias de TI voltadas para concursos públicos. Nosso
+              objetivo é ajudar você a aprender o essencial sem complicação.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="p-10 md:p-20 bg-[#260e52] text-white">
       <div class="lg:w-[1024px] mx-auto md:flex justify-between">
         <div class="[&_a]:underline underline-offset-6 [&_a]:mr-5">
           <a href="https://instagram.com/tifacilitada">Instagram</a>
@@ -25,7 +100,7 @@ import "../styles/global.css";
           <a href="#materiais">Materiais</a>
           <a href="mailto:contato@tifacilitada.com">Contato</a>
         </div>
-        <p>
+        <p class="mt-10 md:mt-0">
           TI Facilitada - Resumos de TI para concursos - Todos os Direitos
           Reservados
         </p>

@@ -16,7 +16,7 @@ const { Content } = await render(material);
 ---
 
 <LayoutMaterial>
-  <div class="flex items-start">
+  <div class="md:flex items-start">
     <Image
       src={material.data.image}
       alt="TI Facilitada"
@@ -24,8 +24,8 @@ const { Content } = await render(material);
       class="p-0 mr-10"
     />
 
-    <div>
-      <h1 class="text-4xl font-extrabold">{material.data.name}</h1>
+    <div class="my-10">
+      <h1 class="text-4xl font-extrabold my-5 md:my-0">{material.data.name}</h1>
       <p class="text-2xl font-bold my-5">{material.data.price}</p>
       <p class="my-5">
         <a class="btn btn-success btn-xl" href={material.data.enderecoCheckout}
