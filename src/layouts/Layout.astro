@@ -1,5 +1,7 @@
 ---
+import { Image } from "astro:assets";
 import "../styles/global.css";
+import exemplos from "../assets/exemplos.png";
 ---
 
 <!doctype html>
@@ -31,6 +33,13 @@ import "../styles/global.css";
   </head>
   <body class="font-garet">
     <slot />
+    <div class="p-20 bg-gradient-to-t from-primary/20 to-base-200 text-center">
+      <Image src={exemplos} alt="TI Facilitada" class="mx-auto text-center" />
+      <a
+        href='https://pay.kirvano.com/304e0721-0c26-40bb-994b-57f43ef4bf93?utm_source=tifacilitada-site&utm_medium=cta-button"'
+        class="btn btn-lg btn-primary my-10">Baixar aula demonstrativa</a
+      >
+    </div>
     <div class="p-20 bg-gradient-to-t from-primary/20 to-base-200">
       <div class="lg:w-[1024px] mx-auto md:flex gap-2">
         <div class="w-1/2">
