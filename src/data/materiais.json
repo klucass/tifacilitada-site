@@ -1,5 +1,14 @@
 [
     {
+        "id": "ti-sefaz-go-pos-edital",
+        "name": "TI p/ Sefaz GO Pós Edital 2025",
+        "price": "R$ 67,00",
+        "description": "TI Geral e Gestão",
+        "body": "Resumo completo para TI Sefaz GO - Pós Edital 2025", 
+        "image": "./capas/ti-sefaz-go-pos-edital.png",
+        "enderecoCheckout": "/checkout/ti-geral-gestao"
+    },
+    {
         "id": "combo-fiscal-controle",
         "name": "Combo Fiscal e Controle",
         "price": "R$ 67,00",
@@ -25,5 +34,5 @@
         "body": "O resumo de TI Geral e Gestão contém os seguintes assuntos: <ul> <li>Gestão de Projetos</li> <li>Processos de Negócios e Modelagem</li><li>Redes de Computadores</li> <li>Segurança da Informação</li> <li>Certificação Digital</li> <li>PMBOK</li> <li>ITIL</li> <li>COBIT</li> </ul>", 
         "image": "./capas/ti-geral-gestao.png",
         "enderecoCheckout": "/checkout/ti-geral-gestao"
-    }
+    }    
 ]
