@@ -6,7 +6,7 @@
         "description": "TI Geral e Gestão",
         "body": "Resumo completo para TI Sefaz GO - Pós Edital 2025", 
         "image": "./capas/ti-sefaz-go-pos-edital.png",
-        "enderecoCheckout": "/checkout/ti-geral-gestao"
+        "enderecoCheckout": "https://pay.kiwify.com.br/c0rr8GL"
     },
     {
         "id": "combo-fiscal-controle",
