@@ -1,0 +1,81 @@
+---
+import { Image } from "astro:assets";
+import LayoutMaterial from "../../layouts/LayoutMaterial.astro";
+import capa from "../../data/capas/informatica-pf-pos-edital.png";
+---
+
+<LayoutMaterial>
+  <div class="md:flex items-start">
+    <Image
+      src={capa}
+      alt="TI Facilitada"
+      width={300}
+      height={500}
+      class="p-0 mr-10"
+    />
+
+    <div class="my-10">
+      <h1 class="text-4xl font-extrabold my-5 md:my-0">
+        Informática para Polícia Federal - Pós Edital 2025
+      </h1>
+      <p class="text-2xl font-bold my-5">R$ 87</p>
+      <div>
+        <p class="my-5">
+          <a
+            class="btn btn-success btn-xl"
+            href="https://pay.kiwify.com.br/t7LRJZi">Comprar agora</a
+          >
+        </p>
+      </div>
+
+      <div
+        class="[&_li]:bg-primary/10 [&_li]:border-2 [&_li]:border-primary/20 [&_li]:px-4 [&_li]:py-2 [&_li]:my-2 [&_li]:rounded-2xl [&_li]:inline-block"
+      >
+        <p class="my-10">
+          O resumo abrange o conteúdo do Edital 2025 para os cargos de
+          <strong> Agente, Escrivão e Papiloscopista </strong>
+          <br /><br />
+          Atenção para a data de disponibilização. Desde já disponibilizamos, para
+          acesso imediato, um brinde com o conteúdo de Fundamentos de Banco de Dados
+          para o candidato ir aquecendo os motores e já ir adiantando assuntos.
+          <br />
+          <br />
+          O resumo de <strong> Informática para Polícia Federal </strong> contém
+          os seguintes assuntos.
+        </p>
+        <p class="font-bold text-2xl">Análise de Dados</p>
+        <p class="mt-2">
+          Previsão de disponibilização: <strong>26/05/2025</strong>
+        </p>
+        <ul>
+          <li>Dado, Informação, Conhecimento</li>
+          <li>Banco de Dados Relacionais</li>
+          <li>Big Data, Data Lake, Data Warehouse</li>
+          <li>Mineração de Dados e Inteligência Artificial</li>
+          <li>Processos de ETL</li>
+        </ul>
+        <p class="mt-10 font-bold text-2xl">
+          Programação para Ciência de Dados
+        </p>
+        <p class="mt-2">Previsão de disponibilização: 05/06/2025</p>
+        <ul>
+          <li>Python</li>
+          <li>R</li>
+          <li>SQL</li>
+        </ul>
+        <p class="mt-10 font-bold text-2xl">Informática Geral</p>
+        <p class="mt-2">Previsão de disponibilização: 09/06/2025</p>
+        <ul>
+          <li>Internet, Intranet, Navegadores, Ferramentas</li>
+          <li>Windows, Linux, Office, LibreOffice</li>
+          <li>Redes</li>
+          <li>Ameaças Digitais, Segurança da Informação e Criptografia</li>
+          <li>Cloud Computing</li>
+          <li>Teoria Geral de Sistemas</li>
+          <li>Arquivos de comunicação entre sistemas</li>
+          <li>Metadados</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</LayoutMaterial>
