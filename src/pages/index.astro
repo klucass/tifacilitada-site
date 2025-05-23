@@ -12,9 +12,14 @@ const materiais = await getCollection("materiais");
 ---
 
 <Layout>
-  <div class="bg-gradient-to-tl from-primary/40 to-secondary/40 p-20">
+  <div class="bg-gradient-to-tl from-primary/40 to-secondary/40 p-5 md:p-20">
     <div class="text-center mx-auto md:w-[768px] lg:w-[1024px]">
-      <Image src={logo} alt="TI Facilitada" width={300} class="p-0 m-0" />
+      <Image
+        src={logo}
+        alt="TI Facilitada"
+        width={300}
+        class="p-0 m-0 mx-auto md:mx-0"
+      />
       <h1 class="text-center text-4xl md:text-6xl font-extrabold mt-20">
         Domine TI com resumos <span class="text-primary">facilitados</span>,
         esquematizados e objetivos
