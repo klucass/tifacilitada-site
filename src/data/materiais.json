@@ -9,15 +9,6 @@
         "enderecoCheckout": "https://pay.kiwify.com.br/c0rr8GL"
     },
     {
-        "id": "informatica-policia-federal",
-        "name": "Informática p/ PF Pós Edital 2025",
-        "price": "R$ 87,00",
-        "description": "Informática para Polícia Federal",
-        "body": "Resumo completo para Polícia Federal - Pós Edital 2025", 
-        "image": "./capas/informatica-pf-pos-edital.png",
-        "enderecoCheckout": "https://tifacilitada.com"
-    },
-    {
         "id": "combo-fiscal-controle",
         "name": "Combo Fiscal e Controle",
         "price": "R$ 67,00",
