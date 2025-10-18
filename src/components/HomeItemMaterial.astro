@@ -3,10 +3,10 @@ import { Image } from "astro:assets";
 const { capa, titulo, preco, endereco, enderecoCheckout } = Astro.props;
 ---
 
-<div
-  class="border-2 rounded-2xl border-primary/20 p-10 text-center bg-primary/5 w-[300px]"
->
-  <Image src={capa} alt="TI Facilitada" class="p-0 m-0" width={300} />
+<div class="border-2 rounded-2xl border-primary/20 p-10 text-center bg-primary/5 w-[300px]">
+  <a href={endereco}>
+    <Image src={capa} alt="TI Facilitada" class="p-0 m-0" width={300} />
+  </a>
 
   <p class="font-bold my-2">{titulo}</p>
   <p class="font-bold my-2 text-2xl">{preco}</p>

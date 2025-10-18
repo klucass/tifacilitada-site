@@ -14,37 +14,25 @@ const materiais = await getCollection("materiais");
 <Layout>
   <div class="bg-gradient-to-tl from-primary/40 to-secondary/40 p-5 md:p-20">
     <div class="text-center mx-auto md:w-[768px] lg:w-[1024px]">
-      <Image
-        src={logo}
-        alt="TI Facilitada"
-        width={300}
-        class="p-0 m-0 mx-auto md:mx-0"
-      />
+      <Image src={logo} alt="TI Facilitada" width={300} class="p-0 m-0 mx-auto md:mx-0" />
       <h1 class="text-center text-4xl md:text-6xl font-extrabold mt-20">
-        Domine TI com resumos <span class="text-primary">facilitados</span>,
-        esquematizados e objetivos
+        Domine TI com resumos <span class="text-primary">facilitados</span>, esquematizados e objetivos
       </h1>
       <p class="text-center text-xl md:text-2xl mt-10">
-        Material baseado em questões pra você aprender mais rápido e aumentar
-        seu desempenho em TI em concursos das áreas Fiscal e Controle.
+        Material baseado em questões pra você aprender mais rápido e aumentar seu desempenho em TI em concursos das
+        áreas Fiscal e Controle.
       </p>
 
-      <a
-        href="#materiais"
-        class="btn btn-xl py-10 btn-primary mt-10 animate-bounce"
-      >
+      <a href="#materiais" class="btn btn-xl px-10 py-10 btn-primary text-white mt-10 animate-bounce">
         Quero Dominar TI para Concursos 🚀
       </a>
     </div>
   </div>
 
   <div class="p-10 md:p-20">
-    <h2 class="text-4xl font-bold text-center mb-10">
-      Por que estudar com o TI Facilitada?
-    </h2>
+    <h2 class="text-4xl font-bold text-center mb-10">Por que estudar com o TI Facilitada?</h2>
     <div
-      class="lg:w-[1024px] mx-auto md:flex gap-2 justify-center [&_div]:my-5 md:[&_div]:my-0 [&_div]:bg-primary/10 [&_div]:border-2 [&_div]:border-primary/20 [&_div]:rounded-2xl [&_div]:p-6 [&_div]:md:w-60"
-    >
+      class="lg:w-[1024px] mx-auto md:flex gap-2 justify-center [&_div]:my-5 md:[&_div]:my-0 [&_div]:bg-primary/10 [&_div]:border-2 [&_div]:border-primary/20 [&_div]:rounded-2xl [&_div]:p-6 [&_div]:md:w-60">
       <div class="">
         <p class="text-2xl font-bold mb-5">✨ Simples</p>
         <p class="">Linguagem clara, sem enrolação</p>
@@ -59,18 +47,14 @@ const materiais = await getCollection("materiais");
       </div>
       <div>
         <p class="text-2xl font-bold mb-5">🛟 Prático</p>
-        <p class="">
-          Inclui cadernos de questões pra você treinar e aprofundar
-        </p>
+        <p class="">Inclui cadernos de questões pra você treinar e aprofundar</p>
       </div>
     </div>
   </div>
 
   <div class="p-10 md:p-20 bg-gradient-to-t from-primary/20 to-base-200">
     <div class="lg:w-[1024px] mx-auto">
-      <h2 class="text-4xl font-extrabold text-center">
-        Pra quem serve o TI Facilitada?
-      </h2>
+      <h2 class="text-4xl font-extrabold text-center">Pra quem serve o TI Facilitada?</h2>
       <div class="my-10 [&_p]:mt-5">
         <p class="text-lg">
           <strong>✅ Você que está começando:</strong>
@@ -78,13 +62,11 @@ const materiais = await getCollection("materiais");
         </p>
         <p class="text-lg">
           <strong>✅ Você que já estudou, mas ainda se sente perdido:</strong>
-          Se livros e aulas não funcionaram para você, experimente um jeito novo
-          de aprender.
+          Se livros e aulas não funcionaram para você, experimente um jeito novo de aprender.
         </p>
         <p class="text-lg">
           <strong>✅ Você que quer passar no concurso:</strong>
-          Focado em aprovação? Nossos resumos também. Feito pra você marcar o x na
-          opção correta.
+          Focado em aprovação? Nossos resumos também. Feito pra você marcar o x na opção correta.
         </p>
         <p class="text-lg">
           <strong>✅ Você que tem pouco tempo:</strong>
@@ -96,9 +78,7 @@ const materiais = await getCollection("materiais");
 
   <div id="materiais" class="p-10 md:p-20">
     <div class="lg:w-[1024px] mx-auto">
-      <h2 class="text-4xl font-extrabold text-center mb-10">
-        Materiais disponíveis
-      </h2>
+      <h2 class="text-4xl font-extrabold text-center mb-10">Materiais disponíveis</h2>
 
       <div class="flex flex-wrap gap-10 justify-center">
         {
