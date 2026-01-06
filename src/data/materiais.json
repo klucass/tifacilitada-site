@@ -1,29 +1,29 @@
 [
-    {
-        "id": "ti-sefaz-go-pos-edital",
-        "name": "TI p/ Sefaz GO Pós Edital 2025",
-        "price": "R$ 97,00",
-        "description": "TI Geral e Gestão",
-        "body": "Resumo completo para TI Sefaz GO - Pós Edital 2025", 
-        "image": "./capas/ti-sefaz-go-pos-edital.png",
-        "enderecoCheckout": "https://pay.kiwify.com.br/c0rr8GL"
-    },
-    {
-        "id": "fluencia-em-dados",
-        "name": "Fluência em Dados (Fiscal e Controle)",
-        "price": "R$ 67,00",
-        "description": "Fluência em Dados (Fiscal e Controle)",
-        "body": "O resumo de Fluência em dados contém os seguintes assuntos: <ul> <li>Banco de Dados</li> <li>Modelagem Relacional</li> <li>BI e Analytics</li> <li>Big Data</li> <li>Inteligência Artificial</li> <li>Governança de Dados</li> <li>SQL</li> <li>Python</li> <li>R</li> </ul>",
-        "image": "./capas/fluencia-em-dados.png",
-        "enderecoCheckout": "https://pay.kiwify.com.br/NEUOKOJ"
-    },
-    {
-        "id": "ti-geral-gestao",
-        "name": "TI Geral e Gestão",
-        "price": "R$ 67,00",
-        "description": "TI Geral e Gestão",
-        "body": "O resumo de TI Geral e Gestão contém os seguintes assuntos: <ul> <li>Gestão de Projetos</li> <li>Processos de Negócios e Modelagem</li><li>Redes de Computadores</li> <li>Segurança da Informação</li> <li>Certificação Digital</li> <li>PMBOK</li> <li>ITIL</li> <li>COBIT</li> </ul>", 
-        "image": "./capas/ti-geral-gestao.png",
-        "enderecoCheckout": "/checkout/ti-geral-gestao"
-    }    
+  {
+    "id": "ti-sefaz-go-pos-edital",
+    "name": "TI p/ Sefaz GO Pós Edital 2025",
+    "price": "R$ 97,00",
+    "description": "TI Geral e Gestão",
+    "body": "Resumo completo para TI Sefaz GO - Pós Edital 2025",
+    "image": "./capas/ti-sefaz-go-pos-edital.png",
+    "enderecoCheckout": "https://pay.kiwify.com.br/c0rr8GL"
+  },
+  {
+    "id": "fluencia-em-dados",
+    "name": "Fluência em Dados (Fiscal e Controle)",
+    "price": "R$ 97,00",
+    "description": "Fluência em Dados (Fiscal e Controle)",
+    "body": "O resumo de Fluência em dados contém os seguintes assuntos: <ul> <li>Banco de Dados</li> <li>Modelagem Relacional</li> <li>BI e Analytics</li> <li>Big Data</li> <li>Inteligência Artificial</li> <li>Governança de Dados</li> <li>SQL</li> <li>Python</li> <li>R</li> </ul>",
+    "image": "./capas/fluencia-em-dados.png",
+    "enderecoCheckout": "https://pay.kiwify.com.br/NEUOKOJ"
+  },
+  {
+    "id": "ti-geral-gestao",
+    "name": "TI Geral e Gestão",
+    "price": "R$ 67,00",
+    "description": "TI Geral e Gestão",
+    "body": "O resumo de TI Geral e Gestão contém os seguintes assuntos: <ul> <li>Gestão de Projetos</li> <li>Processos de Negócios e Modelagem</li><li>Redes de Computadores</li> <li>Segurança da Informação</li> <li>Certificação Digital</li> <li>PMBOK</li> <li>ITIL</li> <li>COBIT</li> </ul>",
+    "image": "./capas/ti-geral-gestao.png",
+    "enderecoCheckout": "/checkout/ti-geral-gestao"
+  }
 ]
