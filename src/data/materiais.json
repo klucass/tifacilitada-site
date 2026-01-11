@@ -1,5 +1,14 @@
 [
   {
+    "id": "sefaz-pa-pos-edital",
+    "name": "Fluência em Dados para Sefaz Pará Pós Edital 2025",
+    "price": "R$ 127,00",
+    "description": "Fluência em Dados para Sefaz Pará Pós Edital 2025",
+    "body": "Resumo esquematizado e facilitado para o concurso de Sefaz Pará Pós Edital 2025, para os cargos de Auditor e Fiscal.",
+    "image": "./capas/sefaz-pa-pos-edital.png",
+    "enderecoCheckout": "https://pay.kiwify.com.br/c0rr8GL"
+  },
+  {
     "id": "ti-sefaz-go-pos-edital",
     "name": "TI p/ Sefaz GO Pós Edital 2025",
     "price": "R$ 97,00",
