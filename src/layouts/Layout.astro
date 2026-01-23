@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import "../styles/global.css";
 import exemplos from "../assets/exemplos.png";
+import PromoBanner from "../components/PromoBanner.astro";
 ---
 
 <!doctype html>
@@ -32,8 +33,9 @@ import exemplos from "../assets/exemplos.png";
     </script>
   </head>
   <body class="font-garet">
+    <PromoBanner />
     <slot />
-    <div class="md:p-20 bg-gradient-to-t from-primary/20 to-base-200 text-center">
+    <div class="md:p-20 bg-linear-to-t from-primary/20 to-base-200 text-center">
       <Image src={exemplos} alt="TI Facilitada" class="mx-auto text-center" />
       <a
         href="https://tifacilitada.miblify.com/aula-demonstrativa"
@@ -41,7 +43,7 @@ import exemplos from "../assets/exemplos.png";
         Baixar aula demonstrativa
       </a>
     </div>
-    <div class="p-20 bg-gradient-to-t from-primary/20 to-base-200">
+    <div class="p-20 bg-linear-to-t from-primary/20 to-base-200">
       <div class="lg:w-[1024px] mx-auto md:flex gap-2">
         <div class="w-1/2">
           <h2 class="text-4xl font-extrabold mb-10">Perguntas Frequentes</h2>

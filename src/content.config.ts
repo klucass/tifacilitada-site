@@ -11,6 +11,7 @@ const materiais = defineCollection({
         id: z.string(),
         name: z.string(),
         price: z.string(),
+        oldPrice: z.string().optional(),
         description: z.string(),
         body: z.string(),
         image: image(),

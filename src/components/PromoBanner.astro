@@ -1,0 +1,75 @@
+---
+
+---
+
+<div
+  class="bg-linear-to-r from-[#1a004b] via-primary to-[#1a004b] text-white py-2 md:py-3 overflow-hidden relative group">
+  <div
+    class="max-w-[1024px] mx-auto px-4 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 text-center animate-pulse-slow">
+    <!-- Left Section: Badge & Text -->
+    <div class="flex items-center gap-2">
+      <span
+        class="bg-yellow-400 text-black text-[9px] md:text-xs font-black px-2 py-0.5 rounded-sm animate-bounce shadow-lg whitespace-nowrap">
+        OFERTA FLASH ⚡
+      </span>
+      <p class="text-[11px] sm:text-xs md:text-sm font-bold tracking-tight">
+        Todo o site com <span class="text-yellow-400 text-base md:text-lg drop-shadow-sm font-black">15% OFF</span>
+      </p>
+    </div>
+
+    <!-- Middle Section: Coupon -->
+    <div
+      class="flex items-center gap-2 bg-white/10 px-3 py-1 rounded-full border border-white/30 hover:bg-white/20 transition-all cursor-pointer group/coupon active:scale-95 shadow-inner"
+      onclick="navigator.clipboard.writeText('FACILITA15')">
+      <span class="text-[9px] uppercase opacity-90 font-medium hidden xs:inline tracking-wider">CUPOM:</span>
+      <span class="font-black tracking-widest text-sm md:text-base text-yellow-400">FACILITA15</span>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-3 w-3 opacity-70 group-hover/coupon:opacity-100 transition-opacity"
+        viewBox="0 0 20 20"
+        fill="currentColor">
+        <path d="M8 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z"></path>
+        <path d="M6 3a2 2 0 00-2 2v11a2 2 0 002 2h8a2 2 0 002-2V5a2 2 0 00-2-2 3 3 0 01-3 3H9a3 3 0 01-3-3z"></path>
+      </svg>
+    </div>
+
+    <!-- Right Section: Timer/CTA (Discreet on desktop) -->
+    <div class="hidden md:flex items-center gap-1 font-bold opacity-90 tracking-tighter">
+      <span>⏱️</span>
+      <span class="animate-shimmer">OFERTA EXPIRA EM BREVE!</span>
+    </div>
+  </div>
+
+  <!-- Subtle Light sweep animation -->
+  <div class="absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden opacity-10">
+    <div
+      class="absolute -left-10 top-0 w-40 h-full bg-linear-to-r from-transparent via-white to-transparent skew-x-[-20deg] animate-sweep">
+    </div>
+  </div>
+</div>
+
+<style>
+  @keyframes sweep {
+    0% {
+      transform: translateX(-100%) skewX(-20deg);
+    }
+    100% {
+      transform: translateX(400%) skewX(-20deg);
+    }
+  }
+  .animate-sweep {
+    animation: sweep 6s ease-in-out infinite;
+  }
+  .animate-pulse-slow {
+    animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  @keyframes pulse {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.92;
+    }
+  }
+</style>
