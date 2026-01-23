@@ -38,5 +38,15 @@
     "body": "O resumo de TI Geral e Gestão contém os seguintes assuntos: <ul> <li>Gestão de Projetos</li> <li>Processos de Negócios e Modelagem</li><li>Redes de Computadores</li> <li>Segurança da Informação</li> <li>Certificação Digital</li> <li>PMBOK</li> <li>ITIL</li> <li>COBIT</li> </ul>",
     "image": "./capas/ti-geral-gestao.png",
     "enderecoCheckout": "/checkout/ti-geral-gestao"
+  },
+  {
+    "id": "python-para-analise-de-dados",
+    "name": "Python para Análise de Dados",
+    "price": "R$ 27,00",
+    "oldPrice": "R$ 57,00",
+    "description": "Python focado em Análise de Dados para Concursos",
+    "body": "Python para Análise de Dados focado em concursos. Aprenda desde o básico até as bibliotecas mais utilizadas. <ul> <li>Tipos de dados</li> <li>Coleções</li> <li>Estruturas de controle</li> <li>Estruturas de repetição</li> <li>Funções</li> <li>Slicing</li> <li>Bibliotecas para análise de dados</li> </ul>",
+    "image": "./capas/capa-python.png",
+    "enderecoCheckout": "https://seguro.tifacilitada.com/r/GO9OGZ5LWP"
   }
 ]
