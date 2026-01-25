@@ -2,7 +2,6 @@
 import { Image } from "astro:assets";
 import "../styles/global.css";
 import exemplos from "../assets/exemplos.png";
-import PromoBanner from "../components/PromoBanner.astro";
 ---
 
 <!doctype html>
@@ -33,7 +32,6 @@ import PromoBanner from "../components/PromoBanner.astro";
     </script>
   </head>
   <body class="font-garet">
-    <PromoBanner />
     <slot />
     <div class="md:p-20 bg-linear-to-t from-primary/20 to-base-200 text-center">
       <Image src={exemplos} alt="TI Facilitada" class="mx-auto text-center" />

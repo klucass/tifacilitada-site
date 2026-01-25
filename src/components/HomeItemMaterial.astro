@@ -9,15 +9,8 @@ const { capa, titulo, preco, oldPrice, endereco, enderecoCheckout } = Astro.prop
   </a>
 
   <p class="font-bold my-2 min-h-12">{titulo}</p>
-  {
-    oldPrice && (
-      <p class="text-[10px] uppercase tracking-wider text-primary/60 font-semibold mb-1">
-        Oferta por tempo limitado
-      </p>
-      <p class="text-sm line-through text-gray-500 -mb-1">{oldPrice}</p>
-    )
-  }
-  <p class="font-bold my-2 text-2xl text-success">{preco}</p>
+
+  <p class="font-bold my-2 text-primary">{preco}</p>
   <p>
     <a href={endereco} class="btn my-4 w-full"> Ver detalhes </a>
   </p>
