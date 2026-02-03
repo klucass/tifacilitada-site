@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-const { capa, titulo, preco, oldPrice, endereco, enderecoCheckout } = Astro.props;
+const { capa, titulo, preco, oldPrice, endereco, enderecoCheckout, promo } = Astro.props;
 ---
 
 <div class="border-2 rounded-2xl border-primary/20 p-10 text-center bg-primary/5 w-[300px] flex flex-col">
@@ -10,7 +10,17 @@ const { capa, titulo, preco, oldPrice, endereco, enderecoCheckout } = Astro.prop
 
   <p class="font-bold my-2 min-h-12">{titulo}</p>
 
-  <p class="font-bold my-2 text-primary">{preco}</p>
+  {
+    promo && (
+      <span class="bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full animate-pulse mb-2">🔥 {promo}</span>
+    )
+  }
+
+  <div class="flex items-center justify-center gap-2">
+    {oldPrice && <span class="text-sm text-gray-400 line-through">{oldPrice}</span>}
+    <span class="font-bold text-primary">{preco}</span>
+  </div>
+
   <p>
     <a href={endereco} class="btn my-4 w-full"> Ver detalhes </a>
   </p>

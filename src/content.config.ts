@@ -12,6 +12,7 @@ const materiais = defineCollection({
         name: z.string(),
         price: z.string(),
         oldPrice: z.string().optional(),
+        promo: z.string().optional(),
         description: z.string(),
         body: z.string(),
         image: image(),
