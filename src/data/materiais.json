@@ -22,9 +22,8 @@
   {
     "id": "fluencia-em-dados",
     "name": "Fluência em Dados (Fiscal e Controle)",
-    "price": "R$ 57,00",
-    "oldPrice": "R$ 97,00",
-    "promo": "Promoção por tempo limitado",
+    "price": "R$ 97,00",
+    "oldPrice": "R$ 127,00",
     "description": "Fluência em Dados (Fiscal e Controle)",
     "body": "O resumo de Fluência em dados contém os seguintes assuntos: <ul> <li>Banco de Dados</li> <li>Modelagem Relacional</li> <li>BI e Analytics</li> <li>Big Data</li> <li>Inteligência Artificial</li> <li>Governança de Dados</li> <li>SQL</li> <li>Python</li> <li>R</li> </ul>",
     "image": "./capas/fluencia-em-dados.png",
