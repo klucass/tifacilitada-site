@@ -3,7 +3,7 @@ content:
   - name: pages
     label: Paginas
     type: collection
-    path: pages/materiais
+    path: src/pages/materiais
     view: 
       fields: [title]
     fields:
