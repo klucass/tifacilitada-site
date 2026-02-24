@@ -7,9 +7,5 @@ content:
       fields: [title]
     path: src/pages/materiais
     fields:
-      - name: body
-        label: Body
-        type: code
-      - name: title
-        label: Title
-        type: string
+      - { name: body, label: Body, type: code }
+      - { name: title, label: Title, type: string }
