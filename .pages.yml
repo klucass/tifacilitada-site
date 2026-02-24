@@ -4,8 +4,6 @@ content:
     label: Paginas
     type: collection
     path: src/pages/materiais
-    view: 
-      fields: [title]
     fields:
       - name: body
         label: Body
