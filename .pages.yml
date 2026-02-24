@@ -1,1 +1,15 @@
 media: src/data/capas
+content:
+  - name: pages
+    label: Paginas
+    type: collection
+    path: pages/materiais
+    view: 
+      fields: [title]
+    fields:
+      - name: body
+        label: Body
+        type: code
+      - name: title
+        label: Title
+        type: string
