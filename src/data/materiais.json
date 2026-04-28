@@ -1,5 +1,16 @@
 [
   {
+    "id": "fluencia-em-dados-sefaz-ce",
+    "name": "Fluência em Dados - Sefaz CE",
+    "price": "R$ 67,00",
+    "oldPrice": "R$ 127,00",
+    "promo": "Pré Venda - Tempo Limitado",
+    "description": "Fluência em Dados para Sefaz CE",
+    "body": "Resumo de Fluência em Dados focado no edital da Sefaz CE. <ul> <li>Ciência de Dados e CRISP</li> <li>Big Data, Data Warehouse, Data Lake e Lakehouse</li> <li>Bancos Relacionais e NoSQL</li> <li>SQL (DQL, agregação, junção, agrupamento)</li> <li>Machine Learning, Deep Learning, IA e NLP</li> <li>Governança e Ética em IA</li> <li>Segurança da Informação e Proteção de Dados</li> <li>LGPD, Marco Civil, Sigilo Fiscal e Funcional</li> </ul>",
+    "image": "./capas/capa-sefaz-ce.png",
+    "enderecoCheckout": "https://tifacilitada.miblify.com/sefazce"
+  },
+  {
     "id": "ti-sefaz-go-pos-edital",
     "name": "TI p/ Sefaz GO Pós Edital 2025",
     "price": "R$ 67,00",
