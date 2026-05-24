@@ -10,16 +10,6 @@
     "enderecoCheckout": "https://tifacilitada.miblify.com/sefazce"
   },
   {
-    "id": "ti-sefaz-go-pos-edital",
-    "name": "TI p/ Sefaz GO Pós Edital 2025",
-    "price": "R$ 97,00",
-    "oldPrice": "R$ 157,00",
-    "description": "TI Geral e Gestão",
-    "body": "Resumo completo para TI Sefaz GO - Pós Edital 2025",
-    "image": "./capas/ti-sefaz-go-pos-edital.png",
-    "enderecoCheckout": "https://pay.kiwify.com.br/c0rr8GL"
-  },
-  {
     "id": "fluencia-em-dados",
     "name": "Fluência em Dados (Fiscal e Controle)",
     "price": "R$ 97,00",
